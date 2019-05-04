@@ -5,12 +5,42 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Portfolio</title>
+     <link rel="stylesheet" href="./assets/css/style.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
         integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
-    <link rel="stylesheet" href="./assets/css/style.css">
 </head>
 <body>
     <header>
+        <div class="navbar">
+        <ul class="main-nav">
+          <li><a href="#">About</a></li>
+          <li class="submenu">
+            <a href="#">
+              <span>Porfolio</span>
+              <svg
+                enable-background="new 0 0 100 100"
+                id="Layer_1"
+                version="1.1"
+                viewBox="0 0 100 100"
+                xml:space="preserve"
+                xmlns="http://www.w3.org/2000/svg"
+                xmlns:xlink="http://www.w3.org/1999/xlink"
+              >
+                <polygon
+                  points="23.1,34.1 51.5,61.7 80,34.1 81.5,35 51.5,64.1 21.5,35 23.1,34.1 "
+                />
+              </svg>
+            </a>
+            <ul>
+              <li><a href="#">Skills</a></li>
+              <li><a href="#">Projects</a></li>
+              <li><a href="#">Appraisals</a></li>
+            </ul>
+          </li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </div>
+<!--
         <nav>
             <ul class="main-nav">
                 <li><a href="#" class="main-a main-a-1">About</a></li>
@@ -25,8 +55,49 @@
                 <li><a href="#" class="main-a">Contact</a></li>
             </ul>
         </nav>
+-->
     </header>
-    <main>
+    <main class="container">
+    <section class="grid">
+<!--       image-->
+        <section>
+            <div class="duplicate"></div>
+            <div class="image">
+        
+                <img src="./assets/images/mine.png" alt="my picture" title="Mohammed Ibrahim">
+            </div>
+        </section>
+<!--        article-->
+        <section>
+            <article>
+               <h1 class="about-head">About
+               Me</h1>
+                <p class="text"><span class="first-word">Lorem</span> ipsum, dolor sit ame
+                    t consectetur adipisicing elit. Assumenda po
+                    ssimus fugit eius quis minus. Numquam libero accusantium consequatur
+                     laboriosam exercitationem similique impedit obcaecati eum minus expedita nihi
+                     l, dolores incidunt blanditiis nesciunt vitae neque, iste cum repudiandae nulla,
+                      corporis iusto commodi sunt pariatur vero! Ipsam eum quos adipisci enim ducimus 
+                      molestias modi recusandae 
+                    exercitationem, fuga perferendis rem, amet, necessitatibus sapiente atque.</p>
+                    <p class="text"><span class="first-word">Lorem</span> ipsum dolor, sit amet consectetur adipisicing elit. Quo, accusamus?
+                         Fugit quibusdam facere quaerat hic aliquam voluptatibus commodi veniam officiis
+                          eveniet consequatur voluptas, laborum ullam earum eligendi accusantium iure 
+                          temporibus adipisci magnam explicabo sequi animi? Quidem minima, veniam error 
+                          quod repellat sit unde quas itaque dolore iste tempora ea. Alias aliquid nemo, 
+                          qui beatae saepe ea deleniti id quaerat et quo facilis pariatur corporis fugiat
+                           vero perferendis ab distinctio dolores, mollitia officiis dolore excepturi aut
+                            quae ipsum repellat. Saepe maxime consequatur cumque repellat delectus vel
+                             ratione id fugiat! Repellat eligendi rem soluta commodi incidunt expedita
+                              odio iste molestias,
+                         eos veniam!</p>
+          
+            </article>
+        </section>
+    </section>
     </main>
+    <footer>
+        <span>Copyright &copy; 2019</span>
+    </footer>
 </body>
 </html>
